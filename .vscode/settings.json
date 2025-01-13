@@ -1,0 +1,9 @@
+{
+  "[markdown]": {
+    "editor.defaultFormatter": "yzhang.markdown-all-in-one"
+  },
+
+  "editor.formatOnSave": true,
+  "files.insertFinalNewline": true,
+  "cSpell.words": ["Carveco"]
+}

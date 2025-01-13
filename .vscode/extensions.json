@@ -1,0 +1,11 @@
+{
+	"recommendations": [
+		"streetsidesoftware.code-spell-checker",
+		"mhutchie.git-graph",
+		"eamodio.gitlens",
+		"yzhang.markdown-all-in-one",
+		"stkb.rewrap",
+		"bierner.github-markdown-preview",
+		"github.vscode-pull-request-github"
+	]
+}
