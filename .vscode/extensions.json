@@ -6,6 +6,7 @@
 		"yzhang.markdown-all-in-one",
 		"stkb.rewrap",
 		"bierner.github-markdown-preview",
-		"github.vscode-pull-request-github"
+		"github.vscode-pull-request-github",
+		"chdsbd.github-code-owners"
 	]
 }

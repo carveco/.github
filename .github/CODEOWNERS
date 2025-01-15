@@ -1,0 +1,17 @@
+# https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-code-owners#codeowners-syntax
+
+# The CODEOWNERS file has _team ownership_.  
+# If you wish to mark yourself as a owner, simply make a pull request and
+# demonstrate to your reviewer that you have the necessary knowledge. An
+# existing owner is recommended, but not necessary. This can be part of a PR
+# that you are already working on.  
+# You may also decide to promote someone else to code owner, for example after
+# an existing owner has a pair programming, or training session. It is the goal
+# that eventually all team members are code owners for the entire repository.
+/.github/CODEOWNERS     @carveco/carveco-development
+
+# These owners will be the default owners for everything in the repo. Unless a
+# later match takes precedence, they will be requested for review when someone
+# opens a pull request.  
+# Order is important; the last matching pattern takes the most precedence.
+*                       @carveco/carveco-development

@@ -1,9 +1,10 @@
 {
-  "[markdown]": {
-    "editor.defaultFormatter": "yzhang.markdown-all-in-one"
-  },
+	"[markdown]": {
+		"editor.defaultFormatter": "yzhang.markdown-all-in-one"
+	},
+	"githubCodeOwners.format.enabled": true,
 
-  "editor.formatOnSave": true,
-  "files.insertFinalNewline": true,
-  "cSpell.words": ["Carveco"]
+	"editor.formatOnSave": true,
+	"files.insertFinalNewline": true,
+	"cSpell.words": ["Carveco"]
 }
