@@ -27,49 +27,52 @@ expectations about what the commit contains. For example, a refactoring or
 performance improvement shouldn't change functionality.
 
 
-| Commit type                | Emoji                             |
-| :------------------------- | :-------------------------------- |
-| New feature                | ✨ `:sparkles:`                    |
-| Bugfix                     | 🐛 `:bug:`                         |
-| Documentation              | 📃 `:page_with_curl:`              |
-| Performance                | 🏇 `:horse_racing:`                |
-| Cosmetic (UI)              | 💄 `:lipstick:`                    |
-| Tests                      | 🚨 `:rotating_light:`              |
-| Adding a test              | 🧪 `:test_tube:`                   |
-| Make a test pass           | ✅ `:white_check_mark:`            |
-| General update             | ⚡ `:zap:`                         |
-| Improve code formatting    | 🎨 `:art:`                         |
-| Lint                       | 👕 `:shirt:`                       |
-| Refactor code              | 🔨 `:hammer:`                      |
-| Tidy/improve readability   | 🧹 `:broom:`                       |
-| Removing code/files        | 🔥 `:fire:`                        |
-| Continuous Integration     | 👷 `:construction_worker:`         |
-| Security                   | 🔒 `:lock:`                        |
-| Translation                | 🌐 `:globe_with_meridians:`        |
-| Text (UI)                  | 📝 `:pencil:`                      |
-| Critical hotfix            | 🚑 `:ambulance:`                   |
-| Publish release            | 🚀 `:rocket:`                      |
-| Fixing on Linux            | 🐧 `:penguin:`                     |
-| Add feature flag           | 🏁 `:checkered_flag:`              |
-| Work in progress           | 🚧  `:construction:`               |
-| Analytics or tracking code | 📈 `:chart_with_upwards_trend:`    |
-| Removing a dependency      | ➖ `:heavy_minus_sign:`            |
-| Adding a dependency        | ➕ `:heavy_plus_sign:`             |
-| Upgrading dependencies     | ⬆️ `:arrow_up:`                    |
-| Downgrading dependencies   | ⬇️ `:arrow_down:`                  |
-| Docker                     | 🐳 `:whale:`                       |
-| Configuration files        | 🔧 `:wrench:`                      |
-| Bad code / need improv.    | 💩 `:hankey:`                      |
-| Reverting changes          | ⏪ `:rewind:`                      |
-| Accessibility              | ♿ `:wheelchair:`                  |
-| Move/rename                | 🚚 `:truck:`                       |
-| Other                      | Create a PR to suggest something! |
+| Commit type                | Emoji | Equivalent Markdown tag           |
+| :------------------------- | :---- | :-------------------------------- |
+| New feature                | ✨     | `:sparkles:`                      |
+| Bugfix                     | 🐛     | `:bug:`                           |
+| Documentation              | 📃     | `:page_with_curl:`                |
+| Performance                | 🏇     | `:horse_racing:`                  |
+| Cosmetic (UI)              | 💄     | `:lipstick:`                      |
+| Tests                      | 🚨     | `:rotating_light:`                |
+| Adding a test              | 🧪     | `:test_tube:`                     |
+| Make a test pass           | ✅     | `:white_check_mark:`              |
+| General update             | ⚡     | `:zap:`                           |
+| Improve code formatting    | 🎨     | `:art:`                           |
+| Lint                       | 👕     | `:shirt:`                         |
+| Refactor code              | 🔨     | `:hammer:`                        |
+| Tidy/improve readability   | 🧹     | `:broom:`                         |
+| Removing code/files        | 🔥     | `:fire:`                          |
+| Continuous Integration     | 👷     | `:construction_worker:`           |
+| Security                   | 🔒     | `:lock:`                          |
+| Translation                | 🌐     | `:globe_with_meridians:`          |
+| Text (UI)                  | 📝     | `:pencil:`                        |
+| Critical hotfix            | 🚑     | `:ambulance:`                     |
+| Publish release            | 🚀     | `:rocket:`                        |
+| Fixing on Linux            | 🐧     | `:penguin:`                       |
+| Add feature flag           | 🏁     | `:checkered_flag:`                |
+| Work in progress           | 🚧     | `:construction:`                  |
+| Analytics or tracking code | 📈     | `:chart_with_upwards_trend:`      |
+| Removing a dependency      | ➖     | `:heavy_minus_sign:`              |
+| Adding a dependency        | ➕     | `:heavy_plus_sign:`               |
+| Upgrading dependencies     | ⬆️     | `:arrow_up:`                      |
+| Downgrading dependencies   | ⬇️     | `:arrow_down:`                    |
+| Docker                     | 🐳     | `:whale:`                         |
+| Configuration files        | 🔧     | `:wrench:`                        |
+| Bad code / need improv.    | 💩     | `:hankey:`                        |
+| Reverting changes          | ⏪     | `:rewind:`                        |
+| Accessibility              | ♿     | `:wheelchair:`                    |
+| Move/rename                | 🚚     | `:truck:`                         |
+| Other                      |       | Create a PR to suggest something! |
 
 Based on
 [`parmentf/GitCommitEmoji.md`](https://gist.github.com/parmentf/035de27d6ed1dce0b36a),
 with inspiration from
 [`dannyfritz/commit-message-emoji`](https://github.com/dannyfritz/commit-message-emoji),
 [`gitmoji`](https://gitmoji.carloscuesta.me/) and [`Git-Emoji`](https://babakks.github.io/article/2020/07/03/emojis-in-git-commit-messages.html).
+
+Use the key combination 🪟+. (windows key and dot) to show the Windows emoji picker
+(works in the major web browsers, code editors, and terminal).
 
 ### Examples
 
