@@ -31,41 +31,41 @@ performance improvement shouldn't change functionality.
 
 
 | Commit type                | Emoji | Emoji picker description          |
-| :------------------------- | :---- | :-------------------------------- |
-| New feature                | ✨     | sparkles                          |
-| Bugfix                     | 🐛     | bug                               |
-| Documentation              | 📃     | page with curl                    |
-| Performance                | 🏇     | horse racing                      |
-| Cosmetic (UI)              | 💄     | lipstick                          |
-| Tests                      | 🚨     | police car light                  |
-| Adding a test              | 🧪     | test tube                         |
-| Make a test pass           | ✅     | check mark button                 |
-| General update             | ⚡     | high voltage (zap)                |
-| Improve code formatting    | 🎨     | artist palette                    |
-| Lint                       | 👕     | t-shirt                           |
-| Refactor code              | 🔨     | hammer                            |
-| Tidy/improve readability   | 🧹     | broom                             |
-| Removing code/files        | 🔥     | fire                              |
-| Continuous Integration     | 👷     | construction worker               |
-| Security                   | 🔒     | locked                            |
-| Translation                | 🌐     | globe with meridians              |
-| Text (UI)                  | 📝     | memo (with pencil)                |
-| Critical hotfix            | 🚑     | ambulance                         |
-| Publish release            | 🚀     | rocket                            |
-| Fixing on Linux            | 🐧     | penguin                           |
-| Add feature flag           | 🏁     | checkered (or chequered) flag     |
-| Work in progress           | 🚧     | construction                      |
-| Analytics or tracking code | 📈     | chart increasing                  |
-| Removing a dependency      | ➖     | minus                             |
-| Adding a dependency        | ➕     | plus                              |
-| Upgrading dependencies     | ⬆️     | up arrow                          |
-| Downgrading dependencies   | ⬇️     | down arrow                        |
-| Docker                     | 🐳     | whale                             |
-| Configuration files        | 🔧     | wrench                            |
-| Bad code / need improv.    | 💩     | pile of poo                       |
-| Reverting changes          | ⏪     | fast reverse button (rewind)      |
-| Accessibility              | ♿     | wheelchair symbol                 |
-| Move/rename                | 🚚     | delivery truck                    |
+| :------------------------- | :---: | :-------------------------------- |
+| New feature                |   ✨   | sparkles                          |
+| Bugfix                     |   🐛   | bug                               |
+| Documentation              |   📃   | page with curl                    |
+| Performance                |   🏇   | horse racing                      |
+| Cosmetic (UI)              |   💄   | lipstick                          |
+| Tests                      |   🚨   | police car light                  |
+| Adding a test              |   🧪   | test tube                         |
+| Make a test pass           |   ✅   | check mark button                 |
+| General update             |   ⚡   | high voltage (zap)                |
+| Improve code formatting    |   🎨   | artist palette                    |
+| Lint                       |   👕   | t-shirt                           |
+| Refactor code              |   🔨   | hammer                            |
+| Tidy/improve readability   |   🧹   | broom                             |
+| Removing code/files        |   🔥   | fire                              |
+| Continuous Integration     |   👷   | construction worker               |
+| Security                   |   🔒   | locked                            |
+| Translation                |   🌐   | globe with meridians              |
+| Text (UI)                  |   📝   | memo (with pencil)                |
+| Critical hotfix            |   🚑   | ambulance                         |
+| Publish release            |   🚀   | rocket                            |
+| Fixing on Linux            |   🐧   | penguin                           |
+| Add feature flag           |   🏁   | checkered (or chequered) flag     |
+| Work in progress           |   🚧   | construction                      |
+| Analytics or tracking code |   📈   | chart increasing                  |
+| Removing a dependency      |   ➖   | minus                             |
+| Adding a dependency        |   ➕   | plus                              |
+| Upgrading dependencies     |   ⬆️   | up arrow                          |
+| Downgrading dependencies   |   ⬇️   | down arrow                        |
+| Docker                     |   🐳   | whale                             |
+| Configuration files        |   🔧   | wrench                            |
+| Bad code / need improv.    |   💩   | pile of poo                       |
+| Reverting changes          |   ⏪   | fast reverse button (rewind)      |
+| Accessibility              |   ♿   | wheelchair symbol                 |
+| Move/rename                |   🚚   | delivery truck                    |
 | Other                      |       | Create a PR to suggest something! |
 
 Based on
