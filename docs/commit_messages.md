@@ -22,6 +22,9 @@ organisation.
 Commit message titles may begin with an emoji. If they do, the meaning should
 be roughly consistent with other commits by following the chart below.
 
+Use the key combination 🪟+. (windows key and dot) to show the Windows emoji picker
+(works in the major web browsers, code editors, and terminal).
+
 Emoji may compress extra information in a limited space (50 characters) and set
 expectations about what the commit contains. For example, a refactoring or
 performance improvement shouldn't change functionality.
@@ -70,9 +73,6 @@ Based on
 with inspiration from
 [`dannyfritz/commit-message-emoji`](https://github.com/dannyfritz/commit-message-emoji),
 [`gitmoji`](https://gitmoji.carloscuesta.me/) and [`Git-Emoji`](https://babakks.github.io/article/2020/07/03/emojis-in-git-commit-messages.html).
-
-Use the key combination 🪟+. (windows key and dot) to show the Windows emoji picker
-(works in the major web browsers, code editors, and terminal).
 
 ### Examples
 
