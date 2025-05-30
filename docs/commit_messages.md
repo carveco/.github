@@ -3,10 +3,15 @@
 
 - [Introduction](#introduction)
 - [Overall Style](#overall-style)
+- [Format](#format)
+  - [Default](#default)
+  - [PR/Merge Commit](#prmerge-commit)
+  - [Revert Commit](#revert-commit)
 - [🙂 Emoji](#-emoji)
   - [Examples](#examples)
 - [🔨 Refactoring](#-refactoring)
   - [Examples](#examples-1)
+  - [Attributions](#attributions)
 
 ## Introduction
 
@@ -17,62 +22,63 @@ organisation.
 
 * [How to Write a Git Commit Message](https://cbea.ms/git-commit/)
 
+## Format
+
+### Default
+
+```
+<emoji> <The description>
+```
+
+### PR/Merge Commit
+
+```
+<emoji> <task id>: <The description>
+```
+
+### Revert Commit
+
+```
+⏪ Revert "<reverted commit subject line>"
+```
+
 ## 🙂 Emoji
 
-Commit message titles may begin with an emoji. If they do, the meaning should
-be roughly consistent with other commits by following the chart below.
+All commits should start with a single emoji signifying the type of change. Use
+the key combination 🪟+. (windows key and dot) to show the Windows emoji picker.
 
-Use the key combination 🪟+. (windows key and dot) to show the Windows emoji picker
-(works in the major web browsers, code editors, and terminal).
+The following chart outlines the most common types of emojis used. Try to use
+the emojis on the list where possible. Each type roughly corresponds the
+[conventional commit
+types](https://gist.github.com/qoomon/5dfcdf8eec66a051ecd85625518cfd13#types),
+but with emojis.
 
-Emoji may compress extra information in a limited space (50 characters) and set
-expectations about what the commit contains. For example, a refactoring or
-performance improvement shouldn't change functionality.
+| Commit type | Emoji | Emoji picker description |
+| :---------- | :---: | :----------------------- |
+| `feat`      |   ✨   | sparkles                 |
+| `fix`       |   🐛   | bug                      |
+| `refactor`  |   🔨   | hammer                   |
+| `perf`      |   🚤   | speed boat               |
+| `style`     |   👕   | t-shirt                  |
+| `test`      |   🧪   | test tube                |
+| `docs`      |   📃   | page with curl           |
+| `build`     |   🛠️   | hammer and wrench        |
+| `ops`       |   👷   | construction worker      |
+| `chore`     |   🧹   | broom                    |
 
+Aside from the common list of emojis above we also have these specific emojis
+for other types of commits:
 
-| Commit type                | Emoji | Emoji picker description          |
-| :------------------------- | :---: | :-------------------------------- |
-| New feature                |   ✨   | sparkles                          |
-| Bugfix                     |   🐛   | bug                               |
-| Documentation              |   📃   | page with curl                    |
-| Performance                |   🏇   | horse racing                      |
-| Cosmetic (UI)              |   💄   | lipstick                          |
-| Tests                      |   🚨   | police car light                  |
-| Adding a test              |   🧪   | test tube                         |
-| Make a test pass           |   ✅   | check mark button                 |
-| General update             |   ⚡   | high voltage (zap)                |
-| Improve code formatting    |   🎨   | artist palette                    |
-| Lint                       |   👕   | t-shirt                           |
-| Refactor code              |   🔨   | hammer                            |
-| Tidy/improve readability   |   🧹   | broom                             |
-| Removing code/files        |   🔥   | fire                              |
-| Continuous Integration     |   👷   | construction worker               |
-| Security                   |   🔒   | locked                            |
-| Translation                |   🌐   | globe with meridians              |
-| Text (UI)                  |   📝   | memo (with pencil)                |
-| Critical hotfix            |   🚑   | ambulance                         |
-| Publish release            |   🚀   | rocket                            |
-| Fixing on Linux            |   🐧   | penguin                           |
-| Add feature flag           |   🏁   | checkered (or chequered) flag     |
-| Work in progress           |   🚧   | construction                      |
-| Analytics or tracking code |   📈   | chart increasing                  |
-| Removing a dependency      |   ➖   | minus                             |
-| Adding a dependency        |   ➕   | plus                              |
-| Upgrading dependencies     |   ⬆️   | up arrow                          |
-| Downgrading dependencies   |   ⬇️   | down arrow                        |
-| Docker                     |   🐳   | whale                             |
-| Configuration files        |   🔧   | wrench                            |
-| Bad code / need improv.    |   💩   | pile of poo                       |
-| Reverting changes          |   ⏪   | fast reverse button (rewind)      |
-| Accessibility              |   ♿   | wheelchair symbol                 |
-| Move/rename                |   🚚   | delivery truck                    |
-| Other                      |       | Create a PR to suggest something! |
-
-Based on
-[`parmentf/GitCommitEmoji.md`](https://gist.github.com/parmentf/035de27d6ed1dce0b36a),
-with inspiration from
-[`dannyfritz/commit-message-emoji`](https://github.com/dannyfritz/commit-message-emoji),
-[`gitmoji`](https://gitmoji.carloscuesta.me/) and [`Git-Emoji`](https://babakks.github.io/article/2020/07/03/emojis-in-git-commit-messages.html).
+| Commit type  | Emoji | Emoji picker description |
+| :----------- | :---: | :----------------------- |
+| `remove`     |   🔥   | fire                     |
+| `move`       |   🚚   | delivery truck           |
+| `translate`  |   🌐   | globe with meridians     |
+| `hotfix`     |   🚑   | ambulance                |
+| `release`    |   🚀   | rocket                   |
+| `revert`     |   ⏪   | rewind                   |
+| `wip`        |   🚧   | construction             |
+| do not merge |   💀   | skull                    |
 
 ### Examples
 
@@ -106,3 +112,12 @@ easier to distinguish what was being changed).
 * 🔨 Inline function: check_dog_beagle_collar()
 * 🔨 Rename variable: better_name
 * 🔥 Remove dead code: GetWorkplaneManagerObject()
+
+### Attributions
+
+* [Conventional Commits](https://www.conventionalcommits.org/)
+* [Conventional Commits Cheatsheet ](https://gist.github.com/qoomon/5dfcdf8eec66a051ecd85625518cfd13)
+* [`parmentf/GitCommitEmoji.md`](https://gist.github.com/parmentf/035de27d6ed1dce0b36a)
+* [`dannyfritz/commit-message-emoji`](https://github.com/dannyfritz/commit-message-emoji)
+* [`gitmoji`](https://gitmoji.carloscuesta.me/)
+* [`Git-Emoji`](https://babakks.github.io/article/2020/07/03/emojis-in-git-commit-messages.html)
