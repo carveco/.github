@@ -5,7 +5,6 @@
 - [Overall Style](#overall-style)
 - [Format](#format)
   - [Default](#default)
-  - [PR/Merge Commit](#prmerge-commit)
   - [Revert Commit](#revert-commit)
 - [🙂 Emoji](#-emoji)
   - [Examples](#examples)
@@ -28,12 +27,6 @@ organisation.
 
 ```
 <emoji> <The description>
-```
-
-### PR/Merge Commit
-
-```
-<emoji> <task id>: <The description>
 ```
 
 ### Revert Commit
