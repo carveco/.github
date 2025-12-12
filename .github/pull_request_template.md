@@ -8,7 +8,7 @@
 - [ ] 📝 I have added an informative title and description containing enough
   motivation and context for a reviewer, following
   [code_review_etiquette.md](https://github.com/carveco/.github/blob/master/docs/code_review_etiquette.md)
-- [ ] 📸 I have included any necessary screenshots or videos.
+- [ ] 📸 I have included any necessary screenshots or videos showcasing the new change in-app.
 - [ ] 🚨 I have added any necessary tests.
 - [ ] 📃 I have updated any necessary documentation.
 - [ ] 🌐 I have run translations as necessary.
